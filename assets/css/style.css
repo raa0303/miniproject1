@@ -229,6 +229,37 @@ section {
 	background-color: #0191f0;
 	color: #ffffff;
 }
+.btn1 {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #6772e5;
+  color: #ffffff;
+  border-radius: 0;
+  border: 1px solid #6772e5;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.btn1:hover {
+  background-color: transparent;
+  color: #0095f7;
+}
+
+.btn2 {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #0095f7;
+  color: #ffffff;
+  border-radius: 0;
+  border: 1px solid #0095f7;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.btn2:hover {
+  background-color: transparent;
+  color: #6772e5;
+}
 
 /* ==============================================
    4. Hero
@@ -285,14 +316,8 @@ section {
    6. Testimonials
 ===============================================*/
 
-#testimonials {
-	background-color: #f6f8f9;
-	border-top: 1px solid #F8F9FB;
-	border-bottom: 1px solid #F8F9FB;
-}
-
 .testimonial-box {
-	background-color: #ffffff;
+	background-color: #f6f8f9;
 	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
 	border-radius: 20px;
 	padding: 20px 30px;
@@ -357,6 +382,11 @@ section {
 /* ==============================================
    7. Pricing
 ===============================================*/
+#pricing {
+	background-color: #f6f8f9;
+	border-top: 1px solid #F8F9FB;
+	border-bottom: 1px solid #F8F9FB;
+}
 
 .pricing-box {
 	background-color: #ffffff;
