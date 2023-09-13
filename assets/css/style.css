@@ -453,7 +453,7 @@ section {
 ===============================================*/
 
 #call-to-action {
-	background-image: url('images/call-to-action.png');
+	background-image: url('../img/call-to-action.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
@@ -464,7 +464,7 @@ section {
 }
 
 #call-to-action p {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 300;
 	color: #ffffff;
 	opacity: .8;
@@ -481,9 +481,6 @@ section {
 	padding: 15px 45px;
 }
 
-#call-to-action .title-block {
-	margin-bottom: 0px;
-}
 
 /* ==============================================
    9. Footer
