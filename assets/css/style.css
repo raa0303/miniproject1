@@ -35,7 +35,7 @@
 	1. Basic Styles
 	2. Navbar
 	3. Buttons
-	4. Hero
+	4. Home
 	5. Marketing
 	6. Testimonials
 	7. Pricing
@@ -262,19 +262,19 @@ section {
 }
 
 /* ==============================================
-   4. Hero
+   4. Home
 ===============================================*/
 
-#hero {
+#home {
 	background-color: #f6f8f9;
 }
 
-#hero h1 {
+#home h1 {
 	font-size: 50px;
 	font-weight: 300;
 }
 
-#hero p {
+#home p {
 	font-size: 18px;
     font-weight: 300;
     color: #8da2b5;
@@ -282,7 +282,7 @@ section {
     padding: 0px;
 }
 
-#hero span {
+#home span {
 	font-weight: 400;
     color: #0095f7;
     text-transform: uppercase;
@@ -481,7 +481,6 @@ section {
 	padding: 15px 45px;
 }
 
-
 /* ==============================================
    9. Footer
 ===============================================*/
@@ -594,11 +593,11 @@ footer small {
 }
 
 @media (max-width: 768px) { 
-	#hero h1 {
+	#home h1 {
 		font-size: 34px!important;
 		margin-bottom: 20px;
 	}
-	#hero p {
+	#home p {
 		font-size: 20px!important;
 	}
 }
@@ -670,7 +669,7 @@ footer small {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-	.hero-content {
+	.home-content {
 		margin-top: 100px;
 	}
 }
