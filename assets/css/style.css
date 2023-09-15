@@ -36,12 +36,13 @@
 	2. Navbar
 	3. Buttons
 	4. Home
-	5. Marketing
-	6. Testimonials
+	5. Silder
+	6. Marketing
 	7. Pricing
-	8. Call to Action
-	9. Footer
-	10. Media Queries
+	8. Testimonials
+	9. Call to Action
+	10. Footer
+	12. Media Queries
 
    //////////////////////////*/
 
@@ -112,6 +113,13 @@ section {
     margin: 2rem 0 0;
 	border-top: 1px solid #edf1f2
 }
+.long_section {
+  margin-left: 45px;
+  margin-right: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 
 /* ==============================================
    2. Navbar 
@@ -288,9 +296,126 @@ section {
     text-transform: uppercase;
     letter-spacing: .05em;
 }
+/* ==============================================
+   5. Silder
+===============================================*/
+.slider_section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background-color: #f9fafa;
+}
+
+.slider_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider_section #customCarousel {
+  width: 100%;
+  z-index: 3;
+}
+
+.slider_section .detail-box {
+  color: #000000;
+}
+
+.slider_section .detail-box h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.slider_section .detail-box p {
+  margin: 25px 0;
+}
+
+.slider_section .detail-box .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -5px;
+}
+
+.slider_section .detail-box .btn-box a {
+  margin: 5px;
+  text-align: center;
+  width: 165px;
+}
+
+.slider_section .detail-box .btn-box .btn1 {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #6772e5;
+  color: #ffffff;
+  border-radius: 0;
+  border: 1px solid #6772e5;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.slider_section .detail-box .btn-box .btn1:hover {
+  background-color: transparent;
+  color: #0095f7;
+}
+
+.slider_section .detail-box .btn-box .btn2 {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #0095f7;
+  color: #ffffff;
+  border-radius: 0;
+  border: 1px solid #0095f7;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.slider_section .detail-box .btn-box .btn2:hover {
+  background-color: transparent;
+  color: #6772e5;
+}
+
+.slider_section .img-box img {
+  width: 100%;
+}
+
+.slider_section .carousel-indicators {
+  position: unset;
+  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 45px;
+}
+
+.slider_section .carousel-indicators li {
+  background-color: #0095f7;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  opacity: 1;
+}
+
+.slider_section .carousel-indicators li.active {
+  width: 17px;
+  height: 17px;
+  background-color: #6772e5;
+}
+
 
 /* ==============================================
-   5. Marketing
+   6. Marketing
 ===============================================*/
 
 #marketing p {
@@ -310,73 +435,6 @@ section {
 
 .content-box {
 	padding: 60px 20px;
-}
-
-/* ==============================================
-   6. Testimonials
-===============================================*/
-
-.testimonial-box {
-	background-color: #f6f8f9;
-	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
-	border-radius: 20px;
-	padding: 20px 30px;
-	margin-top: 30px;
-}
-
-.testimonial-box h6 {
-	font-size: 22px;
-	font-weight: 700;
-	letter-spacing: .05em;
-	margin-top: 5px;
-	margin-bottom: 0px;
-}
-
-.testimonial-box p {
-	font-size: 14px;
-	font-weight: 300;
-	margin-top: 25px;
-	line-height: 1.8;
-	padding: 0px;
-}
-
-.testimonial-box i {
-	color: #ffffff;
-}
-
-.testimonial-box small {
-	color: #8da2b5;
-	display: inline-block;
-}
-
-.testimonial-box span {
-	font-size: 14px;
-	color: #ffffff;
-}
-
-.rating {
-	background-color: #0095f7;
-	padding: 2px 12px;
-	border-radius: 50px;
-}
-
-.profile-picture {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-.review-one {
-  background-image: url('img/profile-picture-one.jpg');
-}
-
-.personal-info {
-	padding: 5px 0 20px 0;
-	border-bottom: 1px solid #edf1f2;
 }
 
 /* ==============================================
@@ -449,7 +507,75 @@ section {
 }
 
 /* ==============================================
-   8. Call to Action
+   8. Testimonials
+===============================================*/
+
+.testimonial-box {
+	background-color: #f6f8f9;
+	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
+	border-radius: 20px;
+	padding: 20px 30px;
+	margin-top: 30px;
+}
+
+.testimonial-box h6 {
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: .05em;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.testimonial-box p {
+	font-size: 14px;
+	font-weight: 300;
+	margin-top: 25px;
+	line-height: 1.8;
+	padding: 0px;
+}
+
+.testimonial-box i {
+	color: #ffffff;
+}
+
+.testimonial-box small {
+	color: #8da2b5;
+	display: inline-block;
+}
+
+.testimonial-box span {
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.rating {
+	background-color: #0095f7;
+	padding: 2px 12px;
+	border-radius: 50px;
+}
+
+.profile-picture {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.review-one {
+  background-image: url('img/profile-picture-one.jpg');
+}
+
+.personal-info {
+	padding: 5px 0 20px 0;
+	border-bottom: 1px solid #edf1f2;
+}
+
+
+/* ==============================================
+   9. Call to Action
 ===============================================*/
 
 #call-to-action {
@@ -482,7 +608,7 @@ section {
 }
 
 /* ==============================================
-   9. Footer
+   10. Footer
 ===============================================*/
 
 footer {
@@ -543,7 +669,7 @@ footer small {
 }
 
 /* ==============================================
-   9. Media Queries
+   11. Media Queries
 ===============================================*/
 
 /* Extra small devices (portrait phones, less than 576px) */
