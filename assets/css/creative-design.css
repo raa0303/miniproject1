@@ -2778,8 +2778,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #212529;
-  background-color: #f9c807;
-  border-color: #edbe06;
+  background-color: #6772E5;
+  border-color: #6772E5;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2788,15 +2788,15 @@ fieldset:disabled a.btn {
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #212529;
-  background-color: #FAD02C;
-  border-color: #FAD02C;
+  background-color: #6772E5;
+  border-color: #6772E5;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #212529;
-  background-color: #edbe06;
-  border-color: #e1b405;
+  background-color: #6772E5;
+  border-color: #6772E5;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -3043,14 +3043,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #FAD02C;
-  border-color: #FAD02C;
+  color: #6772E5;
+  border-color: #6772E5;
 }
 
 .btn-outline-primary:hover {
-  color: #212529;
-  background-color: #FAD02C;
-  border-color: #FAD02C;
+  color: #0095F7;
+  background-color: #FFFFFF;
+  border-color: #6772E5;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -3058,15 +3058,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #FAD02C;
+  color: #6772E5;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
-  color: #212529;
-  background-color: #FAD02C;
-  border-color: #FAD02C;
+  color: #FFFFFF;
+  background-color: #6772E5;
+  border-color: #6772E5;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -11415,7 +11415,7 @@ section.height-auto {
           transform: rotate(-90deg);
   position: absolute;
   top: 43%;
-  left: -45px;
+  left: -50px;
   font-size: 35px;
 }
 
