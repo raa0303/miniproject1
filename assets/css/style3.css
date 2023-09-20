@@ -572,6 +572,23 @@ h6 {
   background-color: #ebf1fa;
   transition: .5s;
 }
+#about .form button[type="submit"] {
+  background: #6772E5;
+  border-color: #6772E5;
+  border: 0;
+  border-radius: 1px;
+  padding: 8px 30px;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+
+#about .form button[type="submit"]:hover {
+  background: #FFFFFF;
+  color: #0095F7;
+  border-color: #6772E5;
+}
+
+
 
 /* Services Section
 --------------------------------*/
@@ -685,6 +702,9 @@ h6 {
   color: #8a87b6;
 }
 
+#why-us-img-small {
+  float: left;
+}
 
 /* Frequently Asked Questions Section
 --------------------------------*/
@@ -709,7 +729,6 @@ h6 {
   text-align: center;
   position: relative;
 }
-
 
 
 #faq #faq-list a {
@@ -853,3 +872,4 @@ h6 {
     margin-bottom: 25px;
   }
 }
+
